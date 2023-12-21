@@ -1,12 +1,16 @@
 
 
-
+import Basic from "./practise"
 
 function App() {
- 
+ const username = "bodhandhakal"
 
   return (
-  <h1>Basic react with vite|Bodhan</h1>
+<> 
+<Basic/>
+<h1>Basic for react {username}</h1>
+<p>Test para</p>
+</>
   )
 }
 
