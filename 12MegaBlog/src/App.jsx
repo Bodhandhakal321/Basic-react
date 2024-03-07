@@ -10,7 +10,7 @@ import { Outlet } from 'react-router-dom'
 function App() {
   // console.log(import.meta.env.VITE_APPWRITE_URL);
 
-  const {loading, setLoading} = useState(true)
+  const [loading, setLoading] = useState(true)
   const dispatch = useDispatch()
 
 
